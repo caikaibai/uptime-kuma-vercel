@@ -1,0 +1,32 @@
+{
+  "rewrites": [
+    {
+      "source": "/status/admin",
+      "destination": "https://xxxxxxxxxxxxxxxxxxx/status/admin"
+    },
+    {
+      "source": "/:path(.*).js",
+      "destination": "https://xxxxxxxxxxxxxxxxxxx/:path*.js"
+    },
+    {
+      "source": "/:path(.*).css",
+      "destination": "https://xxxxxxxxxxxxxxxxxxx/:path*.css"
+    },
+    {
+      "source": "/:path(.*).json",
+      "destination": "https://xxxxxxxxxxxxxxxxxxx/:path*.json"
+    },
+    {
+      "source": "/:path(.*).png",
+      "destination": "https://xxxxxxxxxxxxxxxxxxx/:path*.png"
+    },
+    {
+      "source": "/api/:path(.*)",
+      "destination": "https://xxxxxxxxxxxxxxxxxxx/api/:path*"
+    }, 
+    {
+      "source": "/:path(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
